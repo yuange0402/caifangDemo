@@ -1,0 +1,144 @@
+// fix 悬浮框开始
+.flag{
+    position: fixed;
+    top:20px;
+    right: 150px;
+    width:300px;
+    height:400px;
+    // border: 1px solid red;
+}
+
+.fixed{
+    background-color: #fff;
+    padding:10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 1px #ddd;
+    border-radius: 5px;
+    // border: 1px solid red;
+     
+    position: fixed;
+    top:20px;
+    right: 150px;
+    width:300px;
+    height:400px;
+    // border: 1px solid red;
+
+     .top{
+         height:100px;
+        //  border: 1px solid darkgoldenrod;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+         &>.name{
+               font-weight:600;
+               .icon{
+                    padding: 0px 10px 2px;
+                    border-radius: 5px;
+                    background-color: orange;
+                    color: white;
+                    margin-left: 10px;
+               }
+         }
+         .price{
+              font-size:25px;
+              color:#ff6d6f;
+              font-weight:900;
+         }
+         .more{
+             color:#777;
+             font-size: 14px;
+         }
+     }
+     .center{
+         height:200px;
+         margin-top:10px;
+         border-top: 1px solid #eee;
+         padding-top: 10px;
+        //   border: 1px solid darkgoldenrod;
+          .title{
+            //    border: 1px solid darkcyan;
+               font-weight: 800;
+          }
+          &>.discribe{
+                //  border: 1px solid darkcyan;
+                 margin-top:10px;
+                 .icon-check-circle{
+                    color: orange;
+                    margin-right: 10px;
+                 }
+                 font-size: 13px;
+                 color: #888;
+          }
+          .list{
+            //   border: 1px solid darkcyan;
+              margin-top: 10px;
+              margin-bottom: 100px;
+              .item{
+                    // border: 1px solid darkgoldenrod;
+                    padding:5px;
+                    display:flex;
+                    .header{
+                        flex: 1;
+                        // border: 1px solid darkgreen;
+                        img{
+                            height:50px;
+                            width:50px;
+                            border-radius: 50%;
+                            margin-right: 10px;
+                        }
+                    }
+                    .info{
+                        flex-shrink: 0;
+                        flex: 3;
+                        // border: 1px solid darkgreen;
+                        font-size:12px;
+                        display:flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        padding-left: 3px;
+
+                        &>.name{
+                            font-weight: 700;
+                            
+                        }
+                        &>.discribe{
+                            
+                        }
+                    }
+                    .btnW{
+                         flex-shrink: 0;
+                         flex: 2;
+                        //  border: 1px solid darkgreen;
+                         display: flex;
+                         align-items: center;
+                         .btn{
+                             border: 1px solid orange;
+                             color: orange;
+                             font-size: 12px;
+                             padding: 5px 10px;
+                             border-radius: 5px;
+                         }
+                    }
+              }
+          }
+     }
+
+     .bottom{
+        height: 30%;
+        //  border: 1px solid darkgoldenrod;
+     }
+}
+
+
+.recommend{
+    // border: 1px solid red;
+    top: 100px;
+    width:300px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+
+// fixed 悬浮框结束
